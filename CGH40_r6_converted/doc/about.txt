@@ -1,0 +1,5 @@
+Name: CGH40_r6
+Version: 1
+Date: Thu Sep 01 15:26:11 2011
+Description: cgh40_r6 package models
+Revision: Initial revision

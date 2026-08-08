@@ -1,0 +1,6 @@
+# Library Defs for editing the CGH40_r6 design kit
+# Remove this from the design kit before distributing to customers.
+DEFINE CGH40_r6_tech ./CGH40_r6_tech
+ASSIGN CGH40_r6_tech libMode shared
+DEFINE CGH40_r6 ./CGH40_r6
+ASSIGN CGH40_r6 libMode shared

@@ -1,0 +1,189 @@
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40006P_r6_CGH40_r6",		//Name
+		"CGH40006P_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40006P_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40006P_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","9")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40006S_r6_CGH40_r6",		//Name
+		"CGH40006S_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40006S_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40006S_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","12.5")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40010F_r6_CGH40_r6",		//Name
+		"CGH40010F_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40010F_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40010F_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		"",		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","5.0")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40025F_r6_CGH40_r6",		//Name
+		"CGH40025F_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40025F_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40025F_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","3.8")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("cgh40035_r6_CGH40_r6",		//Name
+		"cgh40035_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"cgh40035_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_cgh40035_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temperature (C)",66560,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",66560,"StdFormSet","-1",prm("StdForm","3.0")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40045F_r6_CGH40_r6",		//Name
+		"CGH40045F_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40045F_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40045F_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","2.7")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40090PP_r6_CGH40_r6",		//Name
+		"CGH40090PP_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40090PP_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40090PP_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temperature",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","1.45")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40120F_r6_CGH40_r6",		//Name
+		"CGH40120F_r6 - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40120F_r6_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40120F_r6_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temp",65536,"StdFormSet","-1",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",65536,"StdFormSet","-1",prm("StdForm","1.5")));
+
+set_simulator_type(1);
+set_design_type(1);
+create_item("CGH40180PP_r6a_CGH40_r6",		//Name
+		"CGH40180PP_r6a - encoded",		//Label
+		"X",		//Prefix
+		ITEM_NOT_ALL_PARM,		//Attribute
+		-1,		//Priority
+		"",		//iconName
+		"Component Parameters",		//dialogName
+		"",		//dialogData
+		"#uselib \"CGH40_r6\" , \"%d\"\n\"%d\":%t %# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%e%e",		//netlistFormat
+		"CGH40180PP_r6a_CGH40_r6",		//netlistData
+		ComponentAnnotFmt,		//displayFormat
+		"SYM_CGH40180PP_r6a_CGH40_r6",		//symbolName
+		0,		//artWorkType
+		NULL,		//artworkData
+		ITEM_PRIMITIVE_EX		//extraAttrib
+,
+		create_parm("tcase","case temperature",68608,"StdFormSet","12",prm("StdForm","25")),
+		create_parm("crth","thermal resistance",68608,"StdFormSet","12",prm("StdForm","1.5")));
+

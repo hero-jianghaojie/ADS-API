@@ -1,0 +1,5 @@
+# Library Defs for CGH40_r6 design kit
+DEFINE CGH40_r6_tech ./CGH40_r6_tech
+ASSIGN CGH40_r6_tech libMode readOnly
+DEFINE CGH40_r6 ./CGH40_r6
+ASSIGN CGH40_r6 libMode readOnly

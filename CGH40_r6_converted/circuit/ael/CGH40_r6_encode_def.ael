@@ -1,0 +1,50 @@
+decl dir_delim = "/";
+decl CGH40_r6_bitmap_path =
+        strcat(CGH40_r6_PATH, dir_delim,
+        "circuit", dir_delim, 
+        "bitmaps", dir_delim, 
+        on_PC?"pc":"unix", dir_delim);
+
+de_define_palette_group( SCHEM_WIN, "analogRF_net",
+        "CGH40_r6", "CGH40_r6", -2,
+        "CGH40006P_r6_CGH40_r6", "Encoded Version of Part - CGH40006P_r6",
+                strcat( CGH40_r6_bitmap_path, "CGH40006P_r6"),
+        "CGH40006S_r6_CGH40_r6", "Encoded Version of Part - CGH40006S_r6",
+                strcat( CGH40_r6_bitmap_path, "CGH40006S_r6"),
+        "CGH40010F_r6_CGH40_r6", "Encoded Version of Part - CGH40010F_r6",
+                strcat( CGH40_r6_bitmap_path, "CGH40010F_r6"),
+        "CGH40025F_r6_CGH40_r6", "Encoded Version of Part - CGH40025F_r6",
+                strcat( CGH40_r6_bitmap_path, "CGH40025F_r6"),
+        "cgh40035_r6_CGH40_r6", "Encoded Version of Part - cgh40035_r6",
+                strcat( CGH40_r6_bitmap_path, "cgh40035_r6"),
+        "CGH40045F_r6_CGH40_r6", "Encoded Version of Part - CGH40045F_r6",
+                strcat( CGH40_r6_bitmap_path, "CGH40045F_r6"),
+        "CGH40090PP_r6_CGH40_r6", "Encoded Version of Part - CGH40090PP_r6",
+                strcat( CGH40_r6_bitmap_path, "CGH40090PP_r6"),
+        "CGH40120F_r6_CGH40_r6", "Encoded Version of Part - CGH40120F_r6",
+                strcat( CGH40_r6_bitmap_path, "CGH40120F_r6"),
+        "CGH40180PP_r6a_CGH40_r6", "Encoded Version of Part - CGH40180PP_r6a",
+                strcat( CGH40_r6_bitmap_path, "CGH40180PP_r6a")
+        );
+de_define_palette_group( SCHEM_WIN, "sigproc_net",
+        "CGH40_r6", "CGH40_r6", -2,
+         "CGH40006P_r6_CGH40_r6", "Encoded Version of Part - CGH40006P_r6", 
+                strcat( CGH40_r6_bitmap_path, "CGH40006P_r6"),
+         "CGH40006S_r6_CGH40_r6", "Encoded Version of Part - CGH40006S_r6", 
+                strcat( CGH40_r6_bitmap_path, "CGH40006S_r6"),
+         "CGH40010F_r6_CGH40_r6", "Encoded Version of Part - CGH40010F_r6", 
+                strcat( CGH40_r6_bitmap_path, "CGH40010F_r6"),
+         "CGH40025F_r6_CGH40_r6", "Encoded Version of Part - CGH40025F_r6", 
+                strcat( CGH40_r6_bitmap_path, "CGH40025F_r6"),
+         "cgh40035_r6_CGH40_r6", "Encoded Version of Part - cgh40035_r6", 
+                strcat( CGH40_r6_bitmap_path, "cgh40035_r6"),
+         "CGH40045F_r6_CGH40_r6", "Encoded Version of Part - CGH40045F_r6", 
+                strcat( CGH40_r6_bitmap_path, "CGH40045F_r6"),
+         "CGH40090PP_r6_CGH40_r6", "Encoded Version of Part - CGH40090PP_r6", 
+                strcat( CGH40_r6_bitmap_path, "CGH40090PP_r6"),
+         "CGH40120F_r6_CGH40_r6", "Encoded Version of Part - CGH40120F_r6", 
+                strcat( CGH40_r6_bitmap_path, "CGH40120F_r6"),
+         "CGH40180PP_r6a_CGH40_r6", "Encoded Version of Part - CGH40180PP_r6a", 
+                strcat( CGH40_r6_bitmap_path, "CGH40180PP_r6a")
+        );
+

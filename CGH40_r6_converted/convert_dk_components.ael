@@ -1,0 +1,35 @@
+// Design Kit Component Conversion Script
+
+oa_new_library("CGH40_r6", "C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6");
+
+de_add_library_to_def_file("CGH40_r6", "./CGH40_r6", READ_ONLY_LIB_MODE, "C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/lib.defs");
+de_add_library_to_def_file("CGH40_r6", "./CGH40_r6", SHARED_LIB_MODE, "C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/for_editing_pdk.defs");
+
+// Create and populate configuration file
+create_oa_library_config_file("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "DESIGN_KIT_NAME", "CGH40_r6");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "DESIGN_KIT_ROOT", "../");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "BOOT_AEL", "../de/ael/boot");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "VERSION", "1");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "ADSLIBCONFIG_DIRECTORY", "../circuit/config");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "BIN_DIRECTORY", "..//bin/$SIMARCH$COMPILER_VER");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "DOC_DIRECTORY", "../doc");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "DRC_DIRECTORY", "../drc/rules");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "EXPRESSIONS_DIRECTORY", "../expressions/ael");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "TEMPLATES_DIRECTORY", "../circuit/templates/library");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "NETLIST_EXPORTER_DIRECTORY", "../netlist_exp");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "VERILOGA_DIRECTORY", "../veriloga");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "INPUT_DATA_PATH", "../circuit/data;../circuit/models");
+set_oa_library_config_file_var("C:/users/ads2009/hemt_mod_prj/CGH40_r6_converted/CGH40_r6", "LIB_BROWSER_CTL", "../circuit/records/CGH40_r6.ctl");
+// Convert library components
+convert_item_to_oa("CGH40006P_r6_CGH40_r6", "CGH40_r6", "CGH40006P_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("CGH40006S_r6_CGH40_r6", "CGH40_r6", "CGH40006S_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("CGH40010F_r6_CGH40_r6", "CGH40_r6", "CGH40010F_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("CGH40025F_r6_CGH40_r6", "CGH40_r6", "CGH40025F_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("cgh40035_r6_CGH40_r6", "CGH40_r6", "cgh40035_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("CGH40045F_r6_CGH40_r6", "CGH40_r6", "CGH40045F_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("CGH40090PP_r6_CGH40_r6", "CGH40_r6", "CGH40090PP_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("CGH40120F_r6_CGH40_r6", "CGH40_r6", "CGH40120F_r6_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+convert_item_to_oa("CGH40180PP_r6a_CGH40_r6", "CGH40_r6", "CGH40180PP_r6a_CGH40_r6", FALSE, TRUE, "CGH40_r6");
+
+de_close_all_libraries_and_lib_def_files();
